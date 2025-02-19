@@ -6,7 +6,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --brand: #2ba8f0;
-  --muted: #666e80;
+  --muted: #60697d;
   --border: #bac3cf;
 }
 
@@ -15,8 +15,10 @@
     --background: #0f0f0f;
     --foreground: #ededed;
     --brand: #2ba8f0;
-    --muted: #788194;
+    --muted: #7c8597;
     --border: #2d3540;
+
+    --a: #252525;
   }
 }
 

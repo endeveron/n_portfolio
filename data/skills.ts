@@ -47,13 +47,13 @@ const skills: TSkillCategory[] = [
         title: 'Vercel',
       },
       {
-        title: 'GCP',
-      },
-      {
         title: 'AWS',
       },
       {
         title: 'Azure',
+      },
+      {
+        title: 'GCP',
       },
       {
         title: 'Firebase',
@@ -70,7 +70,7 @@ const skills: TSkillCategory[] = [
     ],
   },
   {
-    title: 'In use',
+    // title: 'Using',
     color: '#402155',
     items: [
       {
