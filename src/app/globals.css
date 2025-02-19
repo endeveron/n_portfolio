@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --brand: #2ba8f0;
+  --muted: #666e80;
+  --border: #bac3cf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f0f0f;
+    --foreground: #ededed;
+    --brand: #2ba8f0;
+    --muted: #788194;
+    --border: #2d3540;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
