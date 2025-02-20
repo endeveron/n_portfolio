@@ -3,7 +3,7 @@ import { TSkillCategory } from '@/components/skills/SkillCategory';
 const skills: TSkillCategory[] = [
   {
     title: 'Frontend',
-    color: '#004a51',
+    color: '#22ac92',
     items: [
       {
         title: 'React Native',
@@ -32,7 +32,7 @@ const skills: TSkillCategory[] = [
   },
   {
     title: 'Backend',
-    color: '#014361',
+    color: '#259cd2',
     items: [
       {
         title: 'Node.js',
@@ -71,7 +71,7 @@ const skills: TSkillCategory[] = [
   },
   {
     // title: 'Using',
-    color: '#402155',
+    color: '#718db3',
     items: [
       {
         title: 'TypeScript',
