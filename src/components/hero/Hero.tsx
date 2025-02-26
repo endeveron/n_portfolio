@@ -1,10 +1,11 @@
+import Image from 'next/image';
+
 import DelayedComponent from '@/components/DelayedComponent';
 import DatabaseSet from '@/components/hero/DatabaseSet';
 import MobAppSet from '@/components/hero/MobAppSet';
 import Server from '@/components/hero/Server';
 import SignalGroup from '@/components/hero/SignalGroup';
 import WebAppSet from '@/components/hero/WebAppSet';
-import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -13,9 +14,9 @@ export default function Hero() {
       <DelayedComponent delay={0}>
         <div className="relative w-[150px] h-[150px] rounded-full overflow-hidden">
           <Image
-            src="/images/avatar-300.jpg"
-            alt="Endeveron logo"
-            fill // This makes it responsive within its parent
+            src="/images/avatar.jpg"
+            alt="Avatar"
+            fill
             sizes="150px"
             priority
           />
@@ -25,7 +26,7 @@ export default function Hero() {
       {/* Title */}
       <DelayedComponent delay={200}>
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-extrabold text-2xl">a full stack engineer</h1>
+          <h1 className="font-extrabold text-3xl">Full Stack Engineer</h1>
           <p className="font-medium text-muted text-sm tracking-wide">
             over 10 years of experience
           </p>
@@ -34,17 +35,15 @@ export default function Hero() {
 
       {/* Message */}
       <DelayedComponent delay={400}>
-        <div className="flex flex-col items-center gap-4">
-          <p className="font-bold text-md py-6 px-4 border-border border-t-[1px] border-b-[1px] tracking-wide">
-            {/* From idea through research, design <br />
-          and development to a reliable product */}
-            Shaping ideas into robust products
+        <div>
+          <p className="font-semibold text-center text-xl sm:tracking-wide py-6 px-4 border-border border-t-[1px] border-b-[1px]">
+            Shaping ideas into{' '}
+            <span className="text-nowrap">robust products</span>
           </p>
         </div>
       </DelayedComponent>
 
       {/* Animation */}
-
       <div className="pt-12 pb-8">
         <div className="flex">
           {/* Mob apps */}
@@ -62,7 +61,7 @@ export default function Hero() {
             <SignalGroup length={8} delay={1800} />
           </div>
 
-          {/* Servers 600 */}
+          {/* Servers */}
           <DelayedComponent delay={600}>
             <div className="relative flex flex-col">
               <div className="absolute text-muted left-1/2 -top-12 w-24 uppercase text-center text-xs font-semibold tracking-wide -translate-x-1/2">
@@ -85,7 +84,7 @@ export default function Hero() {
               <div className="absolute text-muted left-1/2 -top-12 w-24 uppercase text-center text-xs font-semibold tracking-wide -translate-x-1/2">
                 Web Apps
               </div>
-              <WebAppSet delay={2800} />
+              <WebAppSet delay={2600} />
             </div>
           </DelayedComponent>
         </div>

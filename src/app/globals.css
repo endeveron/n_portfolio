@@ -7,7 +7,11 @@
   --foreground: #171717;
   --brand: #2ba8f0;
   --muted: #60697d;
+  --card: #edf0f5d9;
+  --input: #ffffff;
   --border: #bac3cf;
+  --error: #f43f5e;
+  --success: #16a34a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +20,11 @@
     --foreground: #ededed;
     --brand: #2ba8f0;
     --muted: #7c8597;
+    --card: #191c24ef;
+    --input: #2a2e3b;
     --border: #2d3540;
+    --error: #f43f5e;
+    --success: #34d399;
 
     --a: #252525;
   }
@@ -26,4 +34,28 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.certificate {
+  @apply relative flex items-center justify-between text-sm;
+}
+
+.certificate__content {
+  @apply flex gap-4 p-4 z-10;
+}
+
+.certificate__arrow {
+  @apply dark:invert z-20 mr-2 opacity-0 transition-opacity;
+}
+
+.certificate__bg {
+  @apply absolute inset-0 bg-card opacity-50 transition-opacity;
+}
+
+.certificate:hover .certificate__arrow {
+  @apply z-10 opacity-80;
+}
+
+.certificate:hover .certificate__bg {
+  @apply opacity-100;
 }

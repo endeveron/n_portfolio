@@ -1,10 +1,5 @@
-import Skill, { TSkill } from '@/components/skills/Skill';
-
-export type TSkillCategory = {
-  color: string;
-  items: TSkill[];
-  title?: string;
-};
+import Skill from '@/components/skills/Skill';
+import { TSkill, TSkillCategory } from '@/types';
 
 export default function SkillCategory({ title, color, items }: TSkillCategory) {
   return (

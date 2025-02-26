@@ -1,9 +1,9 @@
-import { TSkillCategory } from '@/components/skills/SkillCategory';
+import { TSkillCategory } from '@/types';
 
 const skills: TSkillCategory[] = [
   {
     title: 'Frontend',
-    color: '#22ac92',
+    color: '#259cd2',
     items: [
       {
         title: 'React Native',
@@ -26,13 +26,19 @@ const skills: TSkillCategory[] = [
         // value: '8',
       },
       {
+        title: 'UX / UI Design',
+      },
+      {
+        title: 'Sass',
+      },
+      {
         title: 'Tailwind CSS',
       },
     ],
   },
   {
     title: 'Backend',
-    color: '#259cd2',
+    color: '#22ac92',
     items: [
       {
         title: 'Node.js',
@@ -47,25 +53,25 @@ const skills: TSkillCategory[] = [
         title: 'Vercel',
       },
       {
-        title: 'AWS',
-      },
-      {
-        title: 'Azure',
-      },
-      {
-        title: 'GCP',
-      },
-      {
-        title: 'Firebase',
+        title: 'Mongoose',
       },
       {
         title: 'MongoDB',
       },
       {
-        title: 'Mongoose',
+        title: 'Firebase',
       },
       {
         title: 'SQLite',
+      },
+      {
+        title: 'GCP',
+      },
+      {
+        title: 'AWS',
+      },
+      {
+        title: 'Azure',
       },
     ],
   },
@@ -80,7 +86,37 @@ const skills: TSkillCategory[] = [
         title: 'JavaScript',
       },
       {
+        title: 'REST',
+      },
+      {
+        title: 'GraphQL',
+      },
+      {
+        title: 'Socket.io',
+      },
+      {
+        title: 'Web3',
+      },
+      {
+        title: 'Solidity',
+      },
+      {
+        title: 'Etherium',
+      },
+      {
+        title: 'Postman',
+      },
+      {
+        title: 'Gemini API',
+      },
+      {
         title: 'OpenAI API',
+      },
+      {
+        title: 'Docker',
+      },
+      {
+        title: 'Figma',
       },
       {
         title: 'LangChain',
@@ -89,40 +125,19 @@ const skills: TSkillCategory[] = [
         title: 'Stripe',
       },
       {
-        title: 'Docker',
-      },
-      {
         title: 'Clerk',
       },
       {
-        title: 'Next Auth',
+        title: 'Auth.js',
       },
       {
-        title: 'Postman',
+        title: 'NextAuth.js',
       },
       {
-        title: 'REST API',
+        title: 'Plaid',
       },
       {
-        title: 'GraphQL',
-      },
-      {
-        title: 'RTK Query',
-      },
-      {
-        title: 'Axios',
-      },
-      {
-        title: 'Socket.io',
-      },
-      {
-        title: 'MaterialUI',
-      },
-      {
-        title: 'ShadcnUI',
-      },
-      {
-        title: 'Figma',
+        title: 'Alpaca',
       },
     ],
   },

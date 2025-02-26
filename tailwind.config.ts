@@ -14,6 +14,10 @@ export default {
         brand: 'var(--brand)',
         muted: 'var(--muted)',
         border: 'var(--border)',
+        card: 'var(--card)',
+        input: 'var(--input)',
+        error: 'var(--error)',
+        success: 'var(--success)',
       },
       keyframes: {
         fadeIn: {
