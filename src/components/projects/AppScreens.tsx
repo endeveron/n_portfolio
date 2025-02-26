@@ -1,7 +1,8 @@
 'use client';
 
-import DelayedComponent from '@/components/DelayedComponent';
 import Image from 'next/image';
+
+import DelayedComponent from '@/components/DelayedComponent';
 
 type TAppScreensProps = {
   projectId: string;

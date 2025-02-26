@@ -1,6 +1,7 @@
+import Image from 'next/image';
+
 import AppScreens from '@/components/projects/AppScreens';
 import { TProject } from '@/types';
-import Image from 'next/image';
 
 export default function ProjectItem(project: TProject) {
   return (

@@ -1,6 +1,6 @@
+import ProjectItem from '@/components/projects/ProjectItem';
 import { TProject } from '@/types';
 import projects from '../../../data/projects';
-import ProjectItem from '@/components/projects/ProjectItem';
 
 export default function ProjectList({ cardTitle }: { cardTitle: string }) {
   return (

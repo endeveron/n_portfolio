@@ -7,23 +7,18 @@ const skills: TSkillCategory[] = [
     items: [
       {
         title: 'React Native',
-        // value: '3',
       },
       {
         title: 'Expo',
-        // value: '3',
       },
       {
         title: 'Expo Router',
-        // value: '3',
       },
       {
         title: 'React',
-        // value: '10',
       },
       {
         title: 'Redux',
-        // value: '8',
       },
       {
         title: 'UX / UI Design',

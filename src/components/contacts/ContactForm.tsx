@@ -1,14 +1,14 @@
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
+import ErrorMessage from '@/components/contacts/ErrorMessage';
 import {
   contactFormSchema,
   TContactFormData,
 } from '@/components/contacts/schema';
-import ErrorMessage from '@/components/contacts/ErrorMessage';
-import { useState } from 'react';
 import { TResultNotification } from '@/types';
 
 const ContactForm = () => {
@@ -23,9 +23,9 @@ const ContactForm = () => {
   } = useForm<TContactFormData>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
-      name: 'Adam',
-      email: 'adam@mail.com',
-      message: 'The best test message',
+      name: '',
+      email: '',
+      message: '',
     },
   });
 

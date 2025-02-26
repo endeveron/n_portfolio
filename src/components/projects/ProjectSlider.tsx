@@ -2,9 +2,9 @@
 
 import Image from 'next/image';
 
-import { useProjects } from '@/hooks/useProjects';
 import DelayedComponent from '@/components/DelayedComponent';
 import AppScreens from '@/components/projects/AppScreens';
+import { useProjects } from '@/hooks/useProjects';
 
 export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
   const { project, isContentReady, isTouched, prevProject, nextProject } =

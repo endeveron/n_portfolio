@@ -1,7 +1,8 @@
 'use client';
 
-import Signal from '@/components/hero/Signal';
 import { useEffect, useState } from 'react';
+
+import Signal from '@/components/hero/Signal';
 
 export default function SignalGroup({
   length,

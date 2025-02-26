@@ -1,8 +1,9 @@
 'use client';
 
-import Gear from '@/components/hero/Gear';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+
+import Gear from '@/components/hero/Gear';
 
 export default function MobApp({ delay }: { delay?: number }) {
   const [gearOpacity, setGearOpacity] = useState(0);
