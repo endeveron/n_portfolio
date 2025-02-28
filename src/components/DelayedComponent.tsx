@@ -9,7 +9,7 @@ export default function DelayedComponent({
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setShow(true), delay);
+    const timeout = setTimeout(() => setShow(true), Math.max(0, delay));
     return () => clearTimeout(timeout);
   }, [delay]);
 

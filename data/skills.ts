@@ -39,7 +39,7 @@ const skills: TSkillCategory[] = [
         title: 'Node.js',
       },
       {
-        title: 'Express.js',
+        title: 'Express',
       },
       {
         title: 'Next.js',
