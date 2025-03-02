@@ -10,12 +10,20 @@ export type TSkillCategory = {
   title?: string;
 };
 
+export type TProjectBlurImgData = {
+  bg: string;
+  leftScreen: string;
+  mainScreen: string;
+  rightScreen: string;
+};
+
 export type TProject = {
   id: string;
   title: string;
   description: string;
   stack: string[];
   color: string;
+  blurImgData: TProjectBlurImgData;
 };
 
 export type TCertificate = {

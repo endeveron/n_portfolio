@@ -13,9 +13,13 @@ export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
   const cardTitleClassName = `absolute font-bold tracking-wide uppercase select-none -top-12 left-10 xl:left-12 text-8xl`;
 
   return (
-    <section className="pt-10 overflow-hidden">
+    <section className="pt-10 max-2xl:overflow-hidden">
       {/* Card */}
       <div className="relative w-full bg-card">
+        {/* Card stack effect */}
+        <div className="max-2xl:hidden absolute inset-y-16 -inset-x-14 -z-20 bg-card opacity-30"></div>
+        <div className="max-2xl:hidden absolute inset-y-8 -inset-x-8 -z-10 bg-card"></div>
+
         {/* Card title */}
         <div
           className={`${cardTitleClassName} text-muted -z-10 opacity-30 dark:opacity-75`}
@@ -35,6 +39,7 @@ export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
               {/* App screens section */}
               <AppScreens
                 projectId={project.id}
+                blurImgData={project.blurImgData}
                 isContentReady={isContentReady}
                 glowColor={project.color}
               />
@@ -121,6 +126,8 @@ export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
             priority
             quality={100}
             unoptimized
+            placeholder="blur"
+            blurDataURL={project.blurImgData.bg}
           />
 
           {/* Background color */}

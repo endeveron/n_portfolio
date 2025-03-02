@@ -12,7 +12,7 @@ export default function Skill({ title, value, color }: TSkill) {
         </div>
       ) : null}
       <div
-        className="absolute inset-0 z-0 dark:opacity-40 rounded-sm"
+        className="absolute inset-0 z-0 dark:opacity-35 rounded-sm"
         style={{ backgroundColor: color }}
       ></div>
     </div>

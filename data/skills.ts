@@ -24,10 +24,13 @@ const skills: TSkillCategory[] = [
         title: 'UX / UI Design',
       },
       {
-        title: 'Sass',
+        title: 'Figma',
       },
       {
         title: 'Tailwind CSS',
+      },
+      {
+        title: 'PWA',
       },
     ],
   },
@@ -48,7 +51,10 @@ const skills: TSkillCategory[] = [
         title: 'Vercel',
       },
       {
-        title: 'Mongoose',
+        title: 'GCP',
+      },
+      {
+        title: 'AWS',
       },
       {
         title: 'MongoDB',
@@ -57,17 +63,15 @@ const skills: TSkillCategory[] = [
         title: 'Firebase',
       },
       {
+        title: 'DynamoDB',
+      },
+      {
         title: 'SQLite',
       },
-      {
-        title: 'GCP',
-      },
-      {
-        title: 'AWS',
-      },
-      {
-        title: 'Azure',
-      },
+
+      // {
+      //   title: 'Azure',
+      // },
     ],
   },
   {

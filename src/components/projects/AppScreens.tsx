@@ -3,9 +3,11 @@
 import Image from 'next/image';
 
 import DelayedComponent from '@/components/DelayedComponent';
+import { TProjectBlurImgData } from '@/types';
 
 type TAppScreensProps = {
   projectId: string;
+  blurImgData: TProjectBlurImgData;
   imgSrcArr?: [];
   glowColor?: string;
   isContentReady?: boolean;
@@ -13,6 +15,7 @@ type TAppScreensProps = {
 
 const AppScreens = ({
   projectId,
+  blurImgData,
   glowColor,
   isContentReady,
 }: TAppScreensProps) => {
@@ -32,6 +35,8 @@ const AppScreens = ({
               priority
               quality={100}
               unoptimized
+              placeholder="blur"
+              blurDataURL={blurImgData.mainScreen}
             />
           </div>
         </DelayedComponent>
@@ -54,6 +59,8 @@ const AppScreens = ({
               priority
               quality={100}
               unoptimized
+              placeholder="blur"
+              blurDataURL={blurImgData.leftScreen}
             />
           </div>
         </DelayedComponent>
@@ -73,6 +80,8 @@ const AppScreens = ({
               priority
               quality={100}
               unoptimized
+              placeholder="blur"
+              blurDataURL={blurImgData.rightScreen}
             />
           </div>
         </DelayedComponent>

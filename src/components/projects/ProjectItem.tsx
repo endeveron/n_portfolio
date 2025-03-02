@@ -9,6 +9,7 @@ export default function ProjectItem(project: TProject) {
       <div className="relative z-10 flex flex-col items-center gap-16">
         <AppScreens
           projectId={project.id}
+          blurImgData={project.blurImgData}
           isContentReady={true}
           glowColor={project.color}
         />

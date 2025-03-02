@@ -19,7 +19,7 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { errors, isSubmitting, isDirty },
   } = useForm<TContactFormData>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -152,8 +152,8 @@ const ContactForm = () => {
         <div className="mt-4 flex justify-center">
           <button
             type="submit"
-            className="text-lg px-20 py-3 bg-foreground text-background font-bold rounded-full hover:opacity-85 disabled:bg-muted disabled:opacity-50 transition-opacity"
-            disabled={isSubmitting || isPending}
+            className="text-lg px-20 py-3 bg-foreground text-background font-bold rounded-full hover:opacity-85 disabled:bg-muted disabled:opacity-80 transition-opacity"
+            disabled={isSubmitting || isPending || !isDirty}
           >
             {isSubmitting ? 'Sending...' : 'Send'}
           </button>
