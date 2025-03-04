@@ -116,7 +116,7 @@ export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
 
           {/* Background */}
           <Image
-            className={`hidden lg:block absolute z-10 transition-opacity duration-500 ease-in-out ${
+            className={`hidden lg:block absolute inset-0 z-10 transition-opacity duration-700 ease-in-out ${
               isContentReady ? 'opacity-100' : 'opacity-0'
             }`}
             src={`images/projects/${project.id}-bg.jpg`}
@@ -132,7 +132,7 @@ export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
 
           {/* Background color */}
           <div
-            className="absolute inset-0 transition-colors duration-500"
+            className="absolute inset-0 transition-colors duration-1000"
             style={{ backgroundColor: project.color }}
           ></div>
         </div>

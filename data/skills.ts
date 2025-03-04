@@ -24,13 +24,16 @@ const skills: TSkillCategory[] = [
         title: 'UX / UI Design',
       },
       {
-        title: 'Figma',
+        title: 'MUI',
+      },
+      {
+        title: 'Shadcn',
       },
       {
         title: 'Tailwind CSS',
       },
       {
-        title: 'PWA',
+        title: 'Figma',
       },
     ],
   },
@@ -60,18 +63,17 @@ const skills: TSkillCategory[] = [
         title: 'MongoDB',
       },
       {
-        title: 'Firebase',
-      },
-      {
-        title: 'DynamoDB',
+        title: 'Redis',
       },
       {
         title: 'SQLite',
       },
-
-      // {
-      //   title: 'Azure',
-      // },
+      {
+        title: 'Microservices',
+      },
+      {
+        title: 'Kafka',
+      },
     ],
   },
   {
@@ -128,9 +130,6 @@ const skills: TSkillCategory[] = [
       },
       {
         title: 'Auth.js',
-      },
-      {
-        title: 'NextAuth.js',
       },
       {
         title: 'Plaid',
