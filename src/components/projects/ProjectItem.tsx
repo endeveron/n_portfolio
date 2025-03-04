@@ -52,7 +52,7 @@ export default function ProjectItem(project: TProject) {
       <div className="absolute inset-0 opacity-15">
         <Image
           src="/images/projects/project-bg.svg"
-          alt="server"
+          alt="background"
           fill
           objectFit="cover"
         />

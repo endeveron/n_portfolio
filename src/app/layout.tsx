@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 
+import { TProject } from '@/types';
+import projects from '../../data/projects';
+
 import './globals.css';
 
 const montserratSans = Montserrat({
@@ -20,6 +23,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {projects.map((data: TProject) => (
+          <link
+            rel="preload"
+            href={`images/projects/${data.id}-bg.jpg`}
+            as="image"
+            key={data.id}
+          />
+        ))}
+      </head>
       <body className={`${montserratSans.variable} antialiased`}>
         {children}
       </body>

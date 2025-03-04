@@ -6,6 +6,7 @@ import MobAppSet from '@/components/hero/MobAppSet';
 import Server from '@/components/hero/Server';
 import SignalGroup from '@/components/hero/SignalGroup';
 import WebAppSet from '@/components/hero/WebAppSet';
+import { avatarBlurImgData } from '../../../data/hero';
 
 export default function Hero() {
   return (
@@ -18,7 +19,11 @@ export default function Hero() {
             alt="Avatar"
             fill
             sizes="150px"
+            quality={100}
             priority
+            unoptimized
+            placeholder="blur"
+            blurDataURL={avatarBlurImgData}
           />
         </div>
       </DelayedComponent>

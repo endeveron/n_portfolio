@@ -9,8 +9,6 @@ import projects from '../../data/projects';
 const PROJECT_FADING_TIME = 500;
 const PROJECTS_LENGTH = projects.length;
 
-console.log('PROJECTS_LENGTH', PROJECTS_LENGTH);
-
 export const useProjects = (): {
   project: TProject;
   isContentReady: boolean;
