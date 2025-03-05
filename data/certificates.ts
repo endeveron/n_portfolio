@@ -22,7 +22,7 @@ export const certificates: TCertificate[] = [
   {
     year: '2021',
     title: 'Clean Code',
-    details: 'Clean and maintainable code',
+    details: 'Best Practices',
     url: 'https://www.udemy.com/certificate/UC-77b67029-4753-4db8-9226-3b78a4f42f4e/',
   },
   {
@@ -45,14 +45,14 @@ export const certificates: TCertificate[] = [
   },
   {
     year: '2019',
-    title: 'MEAN',
-    details: 'Angular, Node.js, Express, MongoDB',
-    url: 'https://www.udemy.com/certificate/UC-NVK89GCI/',
+    title: 'Angular',
+    details: 'The Complete Guide',
+    url: 'https://www.udemy.com/certificate/UC-Q0S9DX92/',
   },
   // {
   //   year: '2019',
-  //   title: 'Angular',
-  //   details: 'The Complete Guide',
-  //   url: 'https://www.udemy.com/certificate/UC-Q0S9DX92/',
+  //   title: 'MEAN',
+  //   details: 'Angular, Node.js, Express, MongoDB',
+  //   url: 'https://www.udemy.com/certificate/UC-NVK89GCI/',
   // },
 ];
