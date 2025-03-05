@@ -3,7 +3,7 @@ import { certificates } from '../../../data/certificates';
 
 const Certificates = async () => {
   return (
-    <section className="-mt-4 flex flex-col sm:m-auto sm:w-[540px] lg:w-auto">
+    <section className="flex flex-col sm:m-auto sm:w-[540px] lg:w-auto">
       <div className="mb-4 pl-5 text-muted text-xs font-semibold tracking-wide uppercase lg:mt-2">
         Certificates
       </div>

@@ -47,7 +47,7 @@ const AppScreens = ({
         <DelayedComponent delay={200}>
           <div className="relative opacity-85 overflow-hidden w-[180px] h-[360px] rounded-[14px] sm:w-[256px] sm:h-[512px] sm:rounded-[20px] bg-slate-900">
             <div
-              className="absolute inset-0 opacity-40 z-10"
+              className="absolute inset-0 opacity-50 z-10"
               style={{
                 background: `linear-gradient(to bottom, transparent, ${glowColor})`,
               }}
@@ -68,7 +68,7 @@ const AppScreens = ({
         <DelayedComponent delay={400}>
           <div className="relative opacity-70 overflow-hidden w-[152px] h-[300px] rounded-[10px] sm:w-[220px] sm:h-[440px] sm:rounded-[14px] bg-slate-900">
             <div
-              className="absolute inset-0 opacity-40 z-10"
+              className="absolute inset-0 opacity-50 z-10"
               style={{
                 background: `linear-gradient(to bottom, transparent, ${glowColor})`,
               }}

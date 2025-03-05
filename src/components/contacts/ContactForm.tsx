@@ -152,7 +152,7 @@ const ContactForm = () => {
         <div className="mt-4 flex justify-center">
           <button
             type="submit"
-            className="text-lg px-20 py-3 bg-foreground text-background font-bold rounded-full hover:opacity-85 disabled:bg-muted disabled:opacity-80 transition-opacity"
+            className="text-lg px-20 py-3 bg-foreground text-background font-bold rounded-full hover:opacity-85 disabled:bg-muted disabled:opacity-70 transition-opacity"
             disabled={isSubmitting || isPending || !isDirty}
           >
             {isSubmitting ? 'Sending...' : 'Send'}

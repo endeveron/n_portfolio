@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <div className="flex flex-1 flex-col md:justify-center lg:max-w-[720px]">
       <div className="relative h-16">
-        <div className="absolute text-muted font-bold tracking-wide uppercase select-none top-8 left-8 lg:top-4 lg:left-10 xl:left-12 -z-10 text-7xl lg:text-8xl opacity-40 dark:opacity-75">
+        <div className="absolute text-muted font-bold tracking-wide uppercase select-none top-8 left-8 lg:top-4 lg:left-10 xl:left-12 -z-10 text-7xl lg:text-8xl opacity-50 dark:opacity-75">
           <DelayedComponent delay={3200}>Skills</DelayedComponent>
         </div>
       </div>

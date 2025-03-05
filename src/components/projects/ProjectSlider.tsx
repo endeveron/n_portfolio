@@ -22,12 +22,12 @@ export default function ProjectSlider({ cardTitle }: { cardTitle: string }) {
 
         {/* Card title */}
         <div
-          className={`${cardTitleClassName} text-muted -z-10 opacity-30 dark:opacity-75`}
+          className={`${cardTitleClassName} text-muted -z-10 opacity-50 dark:opacity-75`}
         >
           {cardTitle}
         </div>
         <div className="absolute top-0 inset-y-0 z-30 h-10 w-full overflow-hidden">
-          <div className={`${cardTitleClassName} text-white z-30 opacity-5`}>
+          <div className={`${cardTitleClassName} text-white z-30 opacity-10`}>
             {cardTitle}
           </div>
         </div>

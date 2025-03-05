@@ -6,7 +6,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --brand: #2ba8f0;
-  --muted: #60697d;
+  --muted: #606a80;
   --card: #edf0f5d9;
   --input: #ffffff;
   --border: #bac3cf;
@@ -45,7 +45,7 @@ body {
 }
 
 .certificate__arrow {
-  @apply dark:invert z-20 mr-2 opacity-0 transition-opacity;
+  @apply dark:invert z-20 mr-2 opacity-0 -translate-x-1 translate-y-1 transition-all;
 }
 
 .certificate__bg {
@@ -53,7 +53,7 @@ body {
 }
 
 .certificate:hover .certificate__arrow {
-  @apply z-10 opacity-80;
+  @apply z-10 opacity-80 transform-none;
 }
 
 .certificate:hover .certificate__bg {

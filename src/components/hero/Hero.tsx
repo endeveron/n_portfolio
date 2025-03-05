@@ -10,7 +10,7 @@ import { avatarBlurImgData } from '../../../data/hero';
 
 export default function Hero() {
   return (
-    <div className="min-h-screen min-w-96 md:max-w-[600px] flex flex-1 py-4 flex-col items-center justify-center gap-10 animate-fade-in">
+    <div className="min-h-screen min-w-96 md:max-w-[600px] flex flex-1 py-20 flex-col items-center justify-center gap-10 animate-fade-in">
       {/* Avatar */}
       <DelayedComponent delay={0}>
         <div className="relative w-[150px] h-[150px] rounded-full overflow-hidden">

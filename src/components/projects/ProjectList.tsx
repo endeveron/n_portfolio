@@ -8,7 +8,7 @@ export default function ProjectList({ cardTitle }: { cardTitle: string }) {
       {/* Card */}
       <div className="relative w-full bg-card">
         {/* Card title */}
-        <div className="absolute max-[460px]:text-6xl text-muted font-bold tracking-wide uppercase select-none -top-8 left-8 -z-10 text-7xl opacity-40 dark:opacity-75">
+        <div className="absolute max-[460px]:text-6xl text-muted font-bold tracking-wide uppercase select-none -top-8 left-8 -z-10 text-7xl opacity-50 dark:opacity-75">
           {cardTitle}
         </div>
 
