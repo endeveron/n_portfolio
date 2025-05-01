@@ -8,9 +8,9 @@ import Skills from '@/components/skills/Skills';
 export default function Main() {
   return (
     <main className="relative flex flex-col m-auto max-w-[1400px] font-[family-name:var(--font-montserrat-sans)]">
-      <div className="absolute pt-6 pl-8 lg:pl-20">
+      {/* <div className="absolute pt-6 pl-8 lg:pl-20">
         <Endeveron />
-      </div>
+      </div> */}
 
       {/* First screen */}
       <div className="flex flex-col md:flex-row">
