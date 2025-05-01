@@ -1,6 +1,5 @@
 import Certificates from '@/components/certificates/Certificates';
 import Contacts from '@/components/contacts/Contacts';
-import Endeveron from '@/components/Endeveron';
 import Hero from '@/components/hero/Hero';
 import Projects from '@/components/projects/Projects';
 import Skills from '@/components/skills/Skills';
